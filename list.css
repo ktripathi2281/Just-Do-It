@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #03C988;
+    color: black;
+}
+.name{
+    height: 100%;
+    display: flex;
+    float:left;
+    background-color: #03C988;
+}
+.name h1{
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 20px;
+    font-size: 2.3rem;
+    height:100%;
+    background-color: #03C988;
+}
+
+.container{
+    width: 360px;  
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 100%;
+    /* display: flex;; */
+}
+#inputField {
+    width: 300px;
+    height:50px;
+    border-width: 0;
+    border: 1px solid black;
+    border-radius: 1rem;
+    font-size: 20px;
+    vertical-align: middle;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    /* background-color: goldenrod; */
+
+}
+#addToDo {
+    height: 50px;
+    width: 50px;
+    /* margin-top: 5px; */
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:'Roboto Mono', monospace ;
+    align-items: center;
+}
+
+.to-dos {
+    margin-top: 25px;
+    margin-left: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
